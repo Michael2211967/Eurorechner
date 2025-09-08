@@ -1,0 +1,8 @@
+Package: eurorechner
+Version: 1.1
+Architecture: amd64
+Maintainer: Michael <Michael2211967@yahoo.de>
+Description: Ein einfacher Eurorechner mit GTK.
+ Ein plattformübergreifendes Programm zum Umrechnen von Euro und DM
+ und zur Berechnung der Mehrwertsteuer.
+Depends: libgtk-3-0 
