@@ -199,19 +199,19 @@ int main(int argc, char *argv[]) {
 
     // Widgets zum Haupt-Grid hinzufügen (neues Layout)
     gtk_grid_attach(GTK_GRID(grid), netto_label, 0, 0, 1, 1);
-    gtk_grid_attach(GTK_GRID(grid), app_widgets.dm_netto_label, 2, 0, 1, 1);
-    gtk_grid_attach(GTK_GRID(grid), app_widgets.euro_netto_label, 5, 0, 1, 1);
+    gtk_grid_attach(GTK_GRID(grid), app_widgets.euro_netto_label, 2, 0, 1, 1);
+    gtk_grid_attach(GTK_GRID(grid), app_widgets.dm_netto_label, 5, 0, 1, 1);
     
     // Das neue MwSt-Grid in das Hauptgitter einfügen
     gtk_grid_attach(GTK_GRID(grid), mwst_grid, 0, 1, 2, 1);
+    gtk_grid_attach(GTK_GRID(grid), app_widgets.euro_mwst_label, 2, 1, 1, 1);
     gtk_grid_attach(GTK_GRID(grid), print_button, 3, 1, 1, 1);
-    gtk_grid_attach(GTK_GRID(grid), app_widgets.euro_mwst_label, 5, 1, 1, 1);
-    gtk_grid_attach(GTK_GRID(grid), app_widgets.dm_mwst_label, 2, 1, 1, 1);
+    gtk_grid_attach(GTK_GRID(grid), app_widgets.dm_mwst_label, 5, 1, 1, 1);
     
-    gtk_grid_attach(GTK_GRID(grid), dm_label, 0, 2, 1, 1);
-    gtk_grid_attach(GTK_GRID(grid), app_widgets.dm_entry, 2, 2, 1, 1);
-    gtk_grid_attach(GTK_GRID(grid), euro_label, 4, 2, 1, 1);
-    gtk_grid_attach(GTK_GRID(grid), app_widgets.euro_entry, 5, 2, 1, 1);
+    gtk_grid_attach(GTK_GRID(grid), euro_label, 0, 2, 1, 1);
+    gtk_grid_attach(GTK_GRID(grid), app_widgets.euro_entry, 2, 2, 1, 1);
+    gtk_grid_attach(GTK_GRID(grid), dm_label, 4, 2, 1, 1);
+    gtk_grid_attach(GTK_GRID(grid), app_widgets.dm_entry, 5, 2, 1, 1);
 
     // Alle Widgets anzeigen
     gtk_widget_show_all(window);

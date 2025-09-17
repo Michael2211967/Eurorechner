@@ -2,12 +2,14 @@ EuroRechner
 
 Der EuroRechner wird einfach aus diesem Verzeichnis gestartet.
 
-Nach dem das Fenster geöffnet ist, kann in dem Feld links der DM-Betrag oder rechts 
-der Euro-Betrag eingetragen werden. Nach der Bestätigung mit der RETURN-Taste er-
+Nach dem das Fenster geöffnet ist, kann in dem Feld links der Euro-Betrag oder rechts 
+der DM-Betrag eingetragen werden. Nach der Bestätigung mit der RETURN-Taste er-
 scheint im gegenüberliegenden Feld der umgerechnete Betrag.
 
 Über den Eingabefeldern erscheint dann analog die in den angezeigten Beträgen ent-
 haltene Mehrwertsteuer.
+
+In dieser Fassung kann auch der Mehrwertsteuersatz dynamisch in der 2. Zeile angepasst werden.
 
 Mit dem Schalter "Drucke" kann die gesamte Umrechnung auf einem angeschlossenen 
 Drucker ausgegeben werden.
