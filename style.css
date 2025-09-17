@@ -1,0 +1,17 @@
+body {
+    font-family: OpenSans, Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(227, 227, 227);
+}
+div {
+    text-align: right;
+}
+input {
+    background-color: rgb(180, 180, 180);
+    font-family: OpenSans, Arial, sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+.sep {
+    width: 100px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Eurorechner</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="6">Eurorechner</th>
+        </tr>
+        <tr>
+            <td>
+                Netto:
+            </td>
+            <td></td>
+            <td>
+                <div id="euro_netto">0.84</div>
+            </td>
+            <td>
+                <div class="sep"></div>
+            </td>
+            <td></td>
+            <td>
+                <div id="dm_netto">1.65</div>
+            </td>
+        </tr>
+        <tr>
+            <td>MwSt (%):</td>
+            <td>
+                <input type="text" id="mwst" value="19.0" size="5" onchange="Calculate_MwSt()">
+            </td>
+            <td>
+                <div id="euro_mwst">0.16</div>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <div id="dm_mwst">0.31</div>
+            </td>
+        </tr>
+        <tr>
+            <td>Euro:</td>
+            <td></td>
+            <td>
+                <input type="text" id="euro" value="1,00" onchange="Calculate_DM()">
+            </td>
+            <td></td>
+            <td>DM:</td>
+            <td>
+                <input type="text" id="dm" value="1,96" onchange="Calculate_Euro()">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
