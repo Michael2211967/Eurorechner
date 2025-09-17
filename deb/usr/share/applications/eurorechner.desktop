@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Eurorechner
-Comment=Ein einfacher Eurorechner mit GTK
-Exec=/usr/local/bin/eurorechner
-Icon=/usr/share/icons/hicolor/48x48/apps/eurorechner.png
-Type=Application
-Terminal=false
-Categories=Utility;Calculator;
