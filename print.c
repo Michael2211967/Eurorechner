@@ -27,10 +27,10 @@ static void draw_page(GtkPrintOperation *operation, GtkPrintContext *context, gi
     // Den zu druckenden Text formatieren
     gchar *print_text = g_strdup_printf(
         "Euro-Umrechnungskurs = %.5f DM\n\n"
-        "\t\tDM\t\tEuro\n\n"
-        "Netto\t\t%.2f\t\t%.2f\n"
+        "\t\t\t\t\t\tDM\t\tEuro\n\n"
+        "Netto\t\t\t\t%.2f\t\t%.2f\n"
         "+ %.1f %% MwSt.\t\t%.2f\t\t%.2f\n"
-        "Brutto\t\t%s\t\t%s\n\n",
+        "Brutto\t\t\t\t%s\t\t%s\n\n",
         1.95583,
         strtod(dm_netto_text, NULL), strtod(euro_netto_text, NULL),
         strtod(mwst_rate_text, NULL),
